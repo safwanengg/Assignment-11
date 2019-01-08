@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Review</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles4.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+   
+  <div class="container">
+       <nav class="navbar">
+         <div class="container-fluid">
+      <ul>
+        <li>
+          <a href="Latitude.html">Latitude</a>
+        </li>
+        <li>
+          <a href="Comparison.html">Comparison</a>
+        </li>
+        <li>
+          <a href="Data.html">Data</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+            <button class="dropbtn">Plots</button>
+            <div class="dropdown-content">
+                <a href="MaxTemp.html">Max Temp.</a>
+                <a href="Humidity.html">Humidity</a>
+                <a href="Cloudiness.html">Cloudiness</a>
+                <a href="Wind Speed.html">Wind Speed</a>
+    </div>
+  </div>
+      <select id="nav-select">
+        <option value="Latitude">Latitude</option>
+        <option value="Comparison">Comparison</option>
+        <option value="Data">Data</option>
+      </select>
+      <div class="clearfix"></div>
+    </nav>
+    </nav>
+        <main class="container">
+        <section id="main-bio">
+            <header class="header1">
+                <h1>Summary:Latitude vs. X</h1>
+            </header>
+          <section id="figure">
+            <img id="bio-image" src="images\Fig1.png" alt="Your Name">
+          </section>
+          <br/>
+          <br/>
+          <p>The purpose of this project is to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <br/>
+          <br/>
+          <br/>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+        </section>
+        <main class="container">
+        <section id="bio">
+            <header class="header2">
+                <h1>Visualizations</h1>
+            </header>
+            <section id="figure">
+              <a href="MaxTemp.html"><img id="image" src="images\Fig1.png" alt="Your Name">
+              <a href="Humidity.html"><img id="image" src="images\Fig2.png" alt="Your Name">
+              <a href="Cloudiness.html"><img id="image" src="images\Fig3.png" alt="Your Name">
+              <a href="Wind Speed.html"><img id="image" src="images\Fig4.png" alt="Your Name">
+            </section>
+        </section>  
+    </div>    
+  </div>
+
+</body>
+
+</html>
